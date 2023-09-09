@@ -4,36 +4,59 @@
     box-sizing: border-box;
   }
   
-  
+
+ 
   .container {
     margin: auto;
-    width: 600px;
-    height: 230px; 
+    width: 550px;
+    height: 300px; 
     margin-bottom: 5px;
     overflow: auto;
   }
   
   .container__card {
-    background: rgb(17, 4, 4);
+    background: rgb(10, 1, 1);
     border-radius: 15px;
     display: flex;
     border: 2px solid rgb(74, 152, 224);
     padding: 3px;
     gap: 5px;
     margin-bottom: 10px;
+    height: 270px;
   }
   
-  
-
-  .container__card-img img{
+ .container__card-img img{
     border-radius: 10px;
     height: 160px;
     width: 200px;
     
   }
 
- 
-  
   .container__card-description span b {
     color: aqua;
+  }
+
+  @media screen and (max-width: 480px) {
+  
+  .container {
+    margin: auto;
+    width: 280px;
+    height: 300px; 
+    margin-bottom: 5px;
+    overflow: auto;
+  }
+
+    .container__card{
+     display: inline-block;
+     overflow: auto;
+    }
+
+    .container__card-img img{
+      border-radius: 10px;
+      height: 210px;
+      width: 230px;
+      
+    }
+
+
   }
