@@ -28,3 +28,18 @@ body {
     top: 0px;
     left: 0px;
    }
+
+   .contacto {
+    text-align: center;
+    color: rgb(192, 219, 34);
+   }
+
+   .contacto span {
+    color: rgb(9, 214, 119);
+    border: 3px solid ;
+   }
+
+   h3 {
+    text-align: center;
+    color: rgb(203, 247, 81);
+   }
