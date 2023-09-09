@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;   
+    justify-content: center;
+}
+
+
+.container {
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+}
+.container p {
+ width: 1000px;
+ position: relative;
+ top: 180px;
+ left: 200px;
+}
+
+.container:hover > p {
+    width: 1000px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+   }
