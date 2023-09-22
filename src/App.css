@@ -16,6 +16,7 @@ body {
     height: 350px;
     overflow: hidden;
 }
+
 .container p {
  width: 1000px;
  position: relative;
@@ -43,4 +44,12 @@ body {
    h3 {
     text-align: center;
     color: rgb(203, 247, 81);
+   }
+   .title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .cards{
+    display: flex;
+    flex-flow: wrap;
    }
